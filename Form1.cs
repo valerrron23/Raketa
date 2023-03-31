@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,11 +28,11 @@ namespace Raketa
             Graphics g1 = e.Graphics;
             Graphics g2 = e.Graphics;
             Graphics g3 = e.Graphics;
-            g.Clear(Color.Blue);
-            SolidBrush peg = new SolidBrush(Color.Red);
-            SolidBrush peg1 = new SolidBrush(Color.Yellow);
-            SolidBrush peg2 = new SolidBrush(Color.Yellow);
-            SolidBrush peg3 = new SolidBrush(Color.Aqua);
+            g.Clear(Color.CornflowerBlue);
+            SolidBrush peg = new SolidBrush(Color.BlueViolet);
+            SolidBrush peg1 = new SolidBrush(Color.Magenta);
+            SolidBrush peg2 = new SolidBrush(Color.Magenta);
+            SolidBrush peg3 = new SolidBrush(Color.AliceBlue);
             GraphicsPath gp = new GraphicsPath(FillMode.Winding);
             GraphicsPath gp1 = new GraphicsPath(FillMode.Winding);
             GraphicsPath gp2 = new GraphicsPath(FillMode.Winding);
